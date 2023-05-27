@@ -11,8 +11,8 @@ const Home = () => {
     <Layout>
       <div className="home" style={{ backgroundImage: `url(${Banner})` }}>
         <div className="headerContainer">
-          <h1 style={{ color: 'white' }}>AI & Data Science Academy</h1>
-          <p style={{ color: 'white' }}>Best Institute In Hyderabad</p>
+          <h1 style={{ color: 'white', marginBottom: '10px'  }}>AI & Data Science Academy</h1>
+          <p style={{ color: 'white', marginTop: '40px'  }}>Best Institute In Hyderabad</p>
           <a href={googleFormsLink} target="_blank" rel="noopener noreferrer">
             <button style={{ backgroundColor: 'blue', color: 'white' }}>Register Now</button>
           </a>
